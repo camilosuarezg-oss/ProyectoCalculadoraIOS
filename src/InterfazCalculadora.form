@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="InterfazCalculadora">
-  <grid id="27dc6" binding="pnlPrincipal" custom-create="true" layout-manager="GridLayoutManager" row-count="3" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="10">
+  <grid id="27dc6" binding="pnlPrincipal" layout-manager="GridLayoutManager" row-count="3" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="10">
     <margin top="10" left="12" bottom="12" right="12"/>
     <constraints>
-      <xy x="113" y="29" width="586" height="689"/>
+      <xy x="171" y="76" width="374" height="476"/>
     </constraints>
     <properties>
       <background color="-16777216"/>
@@ -26,11 +26,13 @@
               <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
-              <background color="-3487030"/>
+              <background color="-5921371"/>
               <borderPainted value="false"/>
               <contentAreaFilled value="true"/>
               <defaultCapable value="true"/>
               <enabled value="true"/>
+              <font name="SansSerif" size="24"/>
+              <foreground color="-1"/>
               <text value="AC"/>
             </properties>
           </component>
@@ -39,11 +41,13 @@
               <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
-              <background color="-3487030"/>
+              <background color="-5921371"/>
               <borderPainted value="false"/>
               <contentAreaFilled value="true"/>
               <defaultCapable value="true"/>
               <enabled value="true"/>
+              <font name="SansSerif" size="24"/>
+              <foreground color="-1"/>
               <text value="%"/>
             </properties>
           </component>
@@ -52,11 +56,13 @@
               <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
-              <background color="-3487030"/>
+              <background color="-13421773"/>
               <borderPainted value="false"/>
               <contentAreaFilled value="true"/>
               <defaultCapable value="true"/>
               <enabled value="true"/>
+              <font name="SansSerif" size="24"/>
+              <foreground color="-1"/>
               <text value="9"/>
             </properties>
           </component>
@@ -65,11 +71,13 @@
               <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
-              <background color="-3487030"/>
+              <background color="-26102"/>
               <borderPainted value="false"/>
               <contentAreaFilled value="true"/>
               <defaultCapable value="true"/>
               <enabled value="true"/>
+              <font name="SansSerif" size="24"/>
+              <foreground color="-1"/>
               <text value="X"/>
             </properties>
           </component>
@@ -78,11 +86,13 @@
               <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
-              <background color="-3487030"/>
+              <background color="-13421773"/>
               <borderPainted value="false"/>
               <contentAreaFilled value="true"/>
               <defaultCapable value="true"/>
               <enabled value="true"/>
+              <font name="SansSerif" size="24"/>
+              <foreground color="-1"/>
               <text value="4"/>
             </properties>
           </component>
@@ -91,11 +101,13 @@
               <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
-              <background color="-3487030"/>
+              <background color="-13421773"/>
               <borderPainted value="false"/>
               <contentAreaFilled value="true"/>
               <defaultCapable value="true"/>
               <enabled value="true"/>
+              <font name="SansSerif" size="24"/>
+              <foreground color="-1"/>
               <text value="2"/>
             </properties>
           </component>
@@ -104,11 +116,13 @@
               <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
-              <background color="-3487030"/>
+              <background color="-13421773"/>
               <borderPainted value="false"/>
               <contentAreaFilled value="true"/>
               <defaultCapable value="true"/>
               <enabled value="true"/>
+              <font name="SansSerif" size="24"/>
+              <foreground color="-1"/>
               <text value="5"/>
             </properties>
           </component>
@@ -117,11 +131,13 @@
               <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
-              <background color="-3487030"/>
+              <background color="-13421773"/>
               <borderPainted value="false"/>
               <contentAreaFilled value="true"/>
               <defaultCapable value="true"/>
               <enabled value="true"/>
+              <font name="SansSerif" size="24"/>
+              <foreground color="-1"/>
               <text value="6"/>
             </properties>
           </component>
@@ -130,11 +146,13 @@
               <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
-              <background color="-3487030"/>
+              <background color="-26102"/>
               <borderPainted value="false"/>
               <contentAreaFilled value="true"/>
               <defaultCapable value="true"/>
               <enabled value="true"/>
+              <font name="SansSerif" size="24"/>
+              <foreground color="-1"/>
               <text value="-"/>
             </properties>
           </component>
@@ -143,11 +161,13 @@
               <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
-              <background color="-3487030"/>
+              <background color="-13421773"/>
               <borderPainted value="false"/>
               <contentAreaFilled value="true"/>
               <defaultCapable value="true"/>
               <enabled value="true"/>
+              <font name="SansSerif" size="24"/>
+              <foreground color="-1"/>
               <text value="1"/>
             </properties>
           </component>
@@ -156,11 +176,13 @@
               <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
-              <background color="-3487030"/>
+              <background color="-13421773"/>
               <borderPainted value="false"/>
               <contentAreaFilled value="true"/>
               <defaultCapable value="true"/>
               <enabled value="true"/>
+              <font name="SansSerif" size="24"/>
+              <foreground color="-1"/>
               <text value="3"/>
             </properties>
           </component>
@@ -169,11 +191,13 @@
               <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
-              <background color="-3487030"/>
+              <background color="-26102"/>
               <borderPainted value="false"/>
               <contentAreaFilled value="true"/>
               <defaultCapable value="true"/>
               <enabled value="true"/>
+              <font name="SansSerif" size="24"/>
+              <foreground color="-1"/>
               <text value="+"/>
             </properties>
           </component>
@@ -182,11 +206,13 @@
               <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
-              <background color="-3487030"/>
+              <background color="-13421773"/>
               <borderPainted value="false"/>
               <contentAreaFilled value="true"/>
               <defaultCapable value="true"/>
               <enabled value="true"/>
+              <font name="SansSerif" size="24"/>
+              <foreground color="-1"/>
               <text value="+/-"/>
             </properties>
           </component>
@@ -195,11 +221,13 @@
               <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
-              <background color="-3487030"/>
+              <background color="-26102"/>
               <borderPainted value="false"/>
               <contentAreaFilled value="true"/>
               <defaultCapable value="true"/>
               <enabled value="true"/>
+              <font name="SansSerif" size="24"/>
+              <foreground color="-1"/>
               <text value="="/>
             </properties>
           </component>
@@ -208,11 +236,13 @@
               <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
-              <background color="-3487030"/>
+              <background color="-13421773"/>
               <borderPainted value="false"/>
               <contentAreaFilled value="true"/>
               <defaultCapable value="true"/>
               <enabled value="true"/>
+              <font name="SansSerif" size="24"/>
+              <foreground color="-1"/>
               <text value=","/>
             </properties>
           </component>
@@ -221,11 +251,13 @@
               <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
-              <background color="-3487030"/>
+              <background color="-13421773"/>
               <borderPainted value="false"/>
               <contentAreaFilled value="true"/>
               <defaultCapable value="true"/>
               <enabled value="true"/>
+              <font name="SansSerif" size="24"/>
+              <foreground color="-1"/>
               <hideActionText value="false"/>
               <text value="0"/>
             </properties>
@@ -235,11 +267,13 @@
               <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
-              <background color="-3487030"/>
+              <background color="-13421773"/>
               <borderPainted value="false"/>
               <contentAreaFilled value="true"/>
               <defaultCapable value="true"/>
               <enabled value="true"/>
+              <font name="SansSerif" size="24"/>
+              <foreground color="-1"/>
               <text value="7"/>
             </properties>
           </component>
@@ -248,11 +282,13 @@
               <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
-              <background color="-3487030"/>
+              <background color="-13421773"/>
               <borderPainted value="false"/>
               <contentAreaFilled value="true"/>
               <defaultCapable value="true"/>
               <enabled value="true"/>
+              <font name="SansSerif" size="24"/>
+              <foreground color="-1"/>
               <text value="8"/>
             </properties>
           </component>
@@ -261,11 +297,13 @@
               <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
-              <background color="-3487030"/>
+              <background color="-26102"/>
               <borderPainted value="false"/>
               <contentAreaFilled value="true"/>
               <defaultCapable value="true"/>
               <enabled value="true"/>
+              <font name="SansSerif" size="24"/>
+              <foreground color="-1"/>
               <text value="÷"/>
             </properties>
           </component>
@@ -274,12 +312,14 @@
               <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
-              <background color="-6201947"/>
+              <background color="-5921371"/>
               <borderPainted value="false"/>
               <contentAreaFilled value="true"/>
               <defaultCapable value="true"/>
               <enabled value="true"/>
               <focusPainted value="false"/>
+              <font name="SansSerif" size="24"/>
+              <foreground color="-1"/>
               <hideActionText value="false"/>
               <text value="⌫"/>
             </properties>
@@ -305,6 +345,7 @@
         </constraints>
         <properties>
           <font name="SansSerif" size="52"/>
+          <foreground color="-1"/>
           <text value="0"/>
         </properties>
       </component>
@@ -313,6 +354,7 @@
           <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <foreground color="-1"/>
           <text value="Fecha"/>
         </properties>
       </component>
