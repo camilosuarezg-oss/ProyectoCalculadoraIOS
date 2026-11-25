@@ -22,8 +22,7 @@ public abstract class OperacionMatematica {
      }
 
      public abstract  double calcular();
-     public void mostrar(){
-          System.out.println("Resultado" + calcular()                 );
+
      }
 
-      }
+
