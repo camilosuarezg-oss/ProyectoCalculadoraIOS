@@ -4,27 +4,27 @@ import java.awt.event.MouseEvent;
 
 public class InterfazCalculadora {
     private JPanel pnlPrincipal;
-    private JButton MODOButton;
-    private JButton btnLimpieza;
-    private JButton btnPorcentaje;
-    private JButton btnDivision;
+    private JButton modoClaroButton;
     private JButton btnBorrar;
-    private JButton btn7;
-    private JButton btn8;
-    private JButton btn9;
-    private JButton btn;
-    private JButton button9;
-    private JButton button10;
-    private JButton button11;
-    private JButton button12;
+    private JButton ACButton;
+    private JButton button3;
+    private JButton button4;
+    private JButton a9Button;
+    private JButton xButton;
+    private JButton a4Button;
+    private JButton a2Button;
+    private JButton a5Button;
+    private JButton a6Button;
     private JButton button13;
-    private JButton button14;
-    private JButton button15;
+    private JButton a1Button;
+    private JButton a3Button;
     private JButton button16;
     private JButton button17;
     private JButton button18;
     private JButton button19;
-    private JButton button20;
+    private JButton a0Button;
+    private JButton a7Button;
+    private JButton a8Button;
     private JLabel btnSuma;
     private JLabel btnLimpiar;
 
@@ -50,5 +50,9 @@ public class InterfazCalculadora {
         frame.pack();
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         frame.setVisible(true);
+    }
+
+    private void createUIComponents() {
+        // TODO: place custom component creation code here
     }
 }
