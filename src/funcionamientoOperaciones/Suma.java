@@ -10,4 +10,5 @@ public class Suma extends OperacionMatematica {
     public double calcular(){
         return getNum1()+getNum2();
     }
+
 }
