@@ -19,13 +19,33 @@ public class Controlador {
       numeros=new ArrayList<Double>();
       operadores = new ArrayList<String>();
       limpiar();
-      historial = FileManager.leerArchivo(File archivo);
+      historial = FileManager.leerArchivo();
 
 
     }
 
-    private void limpiar() {
+    public String getTextoPantalla() {
+        return textoPantalla;
+    }
+
+    public ArrayList<String> getHistorial() {
+        return new ArrayList<String>(historial);
+    }
+
+    public void limpiar() {
+        textoPantalla="0";
+        numeros.clear();
+        operadores.clear();
+        empezarNumeroNuevo=true;
+    }
+    public void mostrarError(){
+        textoPantalla="Error";
+        numeros.clear();
+        operadores.clear();
+        empezarNumeroNuevo=true;
 
     }
+
+
 
 }
