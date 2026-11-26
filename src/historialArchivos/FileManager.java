@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 public class FileManager {
 
-    private static final String nombreArchivo= "historial.txt";
+
 
     public static List<String> leerArchivo(File archivo) {
         // lista que almacena el contenido del archivo
