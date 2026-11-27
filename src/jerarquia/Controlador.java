@@ -1,5 +1,6 @@
 package jerarquia;
 
+import excepciones.EntradaInvalidaExcepcion;
 import historialArchivos.FileManager;
 
 import java.util.ArrayList;
@@ -19,7 +20,7 @@ public class Controlador {
       numeros=new ArrayList<Double>();
       operadores = new ArrayList<String>();
       limpiar();
-      historial = FileManager.leerArchivo();
+      //historial = FileManager.leerArchivo();
 
 
     }
@@ -45,7 +46,20 @@ public class Controlador {
         empezarNumeroNuevo=true;
 
     }
+    public void agregarDigitos(String digito) throws EntradaInvalidaExcepcion {
+        if((digito==null || digito.length()!=1)|| !"0123456789".contains(digito)){
+            throw new EntradaInvalidaExcepcion("Solo se pueden ingresar digitos del 1 al 9",digito);
+        }
+        if(empezarNumeroNuevo||textoPantalla.equals("0")){
+            textoPantalla=digito;
+            empezarNumeroNuevo=false;
+            return;
+        }
+        if (textoPantalla.equals("-0")){
+            textoPantalla="-"+digito;
+            return;
+        }
+    }
 
-""
 
 }
