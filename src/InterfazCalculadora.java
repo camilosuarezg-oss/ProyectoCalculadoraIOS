@@ -1,58 +1,57 @@
+
 import javax.swing.*;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 
 public class InterfazCalculadora {
     private JPanel pnlPrincipal;
-    private JButton modoClaroButton;
+    private JButton btnModo;
     private JButton btnBorrar;
-    private JButton ACButton;
-    private JButton button3;
-    private JButton button4;
-    private JButton a9Button;
-    private JButton xButton;
-    private JButton a4Button;
-    private JButton a2Button;
-    private JButton a5Button;
-    private JButton a6Button;
-    private JButton button13;
-    private JButton a1Button;
-    private JButton a3Button;
-    private JButton button16;
-    private JButton button17;
-    private JButton button18;
-    private JButton button19;
-    private JButton a0Button;
-    private JButton a7Button;
-    private JButton a8Button;
-    private JLabel btnSuma;
-    private JLabel btnLimpiar;
+    private JButton btnPorcentaje;
+    private JButton btnDivision;
+    private JButton btn9;
+    private JButton btnMultiplicacion;
+    private JButton btn4;
+    private JButton btn2;
+    private JButton btn5;
+    private JButton btn6;
+    private JButton btnMenos;
+    private JButton btn1;
+    private JButton btn3;
+    private JButton btnSigno;
+    private JButton btnIgual;
+    private JButton btnComa;
+    private JButton btn0;
+    private JButton btn7;
+    private JButton btn8;
+    private JButton btnSuma;
+    private JButton btnLimpiar;
+    private JLabel lblFecha;
+    private JLabel lblPantalla;
+    private JPanel pnlBotones;
 
-    public InterfazCalculadora() {
-        btnSuma.addMouseListener(new MouseAdapter() {
-            @Override
-            public void mouseClicked(MouseEvent e) {
-                super.mouseClicked(e);
-                JOptionPane.showMessageDialog(null,"Suma");
-            }
-        });
-        btnLimpiar.addMouseListener(new MouseAdapter() {
-            @Override
-            public void mouseClicked(MouseEvent e) {
-                super.mouseClicked(e);
-                JOptionPane.showMessageDialog(null,"Limpieza");
-            }
-        });
-    }
-    public static void main(String[] args){
-        JFrame frame = new JFrame("Calculadora");
-        frame.setContentPane(new InterfazCalculadora().pnlPrincipal);
-        frame.pack();
-        frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-        frame.setVisible(true);
+
+    //Atributos
+
+
+    //Constructor
+
+    public InterfazCalculadora(){
+        Date fecha=new Date();
+        System.out.println(fecha);
+        SimpleDateFormat formato=new SimpleDateFormat("dd/MM/yyyy hh:mm a ");
+        lblFecha.setText(formato.format(fecha));
+
+
     }
 
-    private void createUIComponents() {
-        // TODO: place custom component creation code here
+    public static void main(String[] args) {
+        JFrame frameCalculadora=new JFrame("Calculadora");
+        frameCalculadora.setContentPane(new InterfazCalculadora ().pnlPrincipal);
+        frameCalculadora.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frameCalculadora.setSize(350,500);
+        frameCalculadora.setVisible(true);
     }
+
 }
